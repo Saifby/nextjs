@@ -42,7 +42,7 @@ export default function Home() {
               <td><input type="password" id="c4" /></td>
             </tr>
             <tr>
-              <td colSpan="2">
+              <td colSpan={2}>
                 <input type="submit" className="submit" id="sub" value="S'INSCRIRE" />
               </td>
             </tr>
