@@ -38,7 +38,8 @@ export default function Home() {
               <td><input type="email" id="c3" /></td>
             </tr>
             <tr>
-              <td><label>Votre mot de passe :</label></td>
+              <td><label>Votre pswd
+                 :</label></td>
               <td><input type="password" id="c4" /></td>
             </tr>
             <tr>
