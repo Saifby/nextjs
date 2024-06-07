@@ -19,7 +19,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="headtext">
-          <h1>Hi, I'm Saif</h1>
+          <h1>Hi, I&apos;m Saif</h1>
           <Image src="/giphy.gif" alt="Animated GIF" width={300} height={200} />
         </div>
         <div id="about">
