@@ -31,7 +31,7 @@ export default function Home() {
                   <Image src="/bg.jpg" alt="Background" width={400} height={300} />
                 </div>
                 <div className="col2">
-                  <h1>About Me</h1>
+                  <h1>About Me s</h1>
                 </div>
               </div>
             </div>
