@@ -24,7 +24,7 @@ export default function Home() {
         <div id="about">
           <div className="contain">
             <div className="row">
-              <div className="col">
+              <div className="col2">
                 <h1>About Me</h1>
               </div>
             </div>
