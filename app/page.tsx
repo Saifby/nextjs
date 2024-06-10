@@ -1,13 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './style.module.css'; 
+import styles from './style.module.css';
+
 
 export default function Home() {
   return (
     <div className="pageContainer">
       <Head>
         <title>Inscription</title>
-      </Head>
+        <script src="https://kit.fontawesome.com/c3f00815db.js" crossOrigin="anonymous"></script>      </Head>
       <header>
         <div className="contain">
           <Image src="/Saif.png" alt="Logo" width={100} height={100} />
@@ -22,12 +23,11 @@ export default function Home() {
         <div className="headtext">
           <h1>Hi, I&apos;m Saif  <img src="bg.jpg" alt="" /></h1><br />
         </div>
-
         <div id="about">
           <div className="contain">
             <div className="row">
               <div className="col1">
-              <Image src="/img1.jpg" alt="Background" width={400} height={300} />
+              <Image src="/4707122.jpg" alt="Background" width={400} height={300} />
               </div>
               <div className="col2">
               <h1>About Me</h1>
@@ -38,6 +38,47 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='services'>
+          <div className='container'>
+            <h1>My Services</h1>
+            <div className='listservice'>
+              <div>
+                <h2>FrontEnd</h2>
+                <p>qdhqsdhqdjdqdsqkdmqsdmqsdqmds</p>
+                <a href="cv.pdf">Learn more</a>
+              </div>
+              <div>
+                <h2>BackEnd</h2>
+                <p>dqsdlshkjsdhdkndlsnflsdnf</p>
+                <a href="cv.pdf">Learn more</a>
+              </div>
+              <div>
+                <h2>Programming</h2>
+                <p>dqsdlshkjsdhdkndlsnflsdnf</p>
+                <a href="cv.pdf">Learn more</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div className='contact'>
+          <div className='container'>
+            <div className='contact1'>
+              <h1>Contact me !</h1>
+              <p>saifbenyaagoub@gmail.com</p>
+              <p>+216 92 992 297</p>
+            </div>
+            <div className='contact2'>
+              <p>Social Contact :</p>
+              <a href=""><i className="material-icons">Facebook</i></a>
+              <a href=""><i className="material-icons">Twitter</i></a>
+              <a href=""><i className="material-icons">Instagram</i></a>
+              <a href=""><i className="material-icons">Github</i></a>
+            </div>
+
+          </div>
+
         </div>
       
     </div>
