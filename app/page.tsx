@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import styles from './style.module.css'; // Assuming you have a CSS module or global CSS file
-
+import styles from './style.module.css';
 export default function Home() {
   return (
     <div className="pageContainer">
@@ -25,10 +24,7 @@ export default function Home() {
         <div id="about">
           <div className="contain">
             <div className="row">
-              <div className="col1">
-                <Image src="/bg.jpg" alt="Background" width={400} height={300} />
-              </div>
-              <div className="col2">
+              <div className="col">
                 <h1>About Me</h1>
               </div>
             </div>
