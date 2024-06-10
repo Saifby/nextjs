@@ -33,7 +33,7 @@
 header {
   width: 100%;
   height: 100%;
-  background-image: url("/bg.jpg"); /* Adjust the path accordingly */
+  background-image: url("/giphy.gif"); /* Adjust the path accordingly */
   background-size: cover;
   background-position: center;
 }
