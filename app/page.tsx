@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './style.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 export default function Home() {
@@ -72,10 +74,10 @@ export default function Home() {
             </div>
             <div className='contact2'>
               <p>Social Contact :</p>
-              <a href=""><i className="material-icons">Facebook</i></a>
-              <a href=""><i className="material-icons">Twitter</i></a>
-              <a href=""><i className="material-icons">Instagram</i></a>
-              <a href=""><i className="material-icons">Github</i></a>
+              <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+              <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
+              <a href=""><FontAwesomeIcon icon={faInstagram} /></a>
+              <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
             </div>
 
           </div>
