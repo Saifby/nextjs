@@ -74,10 +74,11 @@ export default function Home() {
             </div>
             <div className='contact2'>
               <p>Social Contact :</p>
-              <a href=""><FontAwesomeIcon icon={faFacebook} className='icon'/></a>
-              <a href=""><FontAwesomeIcon icon={faTwitter}className='icon' /></a>
-              <a href=""><FontAwesomeIcon icon={faInstagram} className='icon'/></a>
-              <a href=""><FontAwesomeIcon icon={faLinkedin}className='icon' /></a>
+              <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+              <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
+              <a href=""><FontAwesomeIcon icon={faInstagram} /></a>
+              <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
+            
             </div>
 
           </div>
