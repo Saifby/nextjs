@@ -1,9 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from './style.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faLinkedin,faMailchimp} from '@fortawesome/free-brands-svg-icons';
-import { faMailForward } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Home() {
@@ -11,7 +8,7 @@ export default function Home() {
     <div className="pageContainer">
       <Head>
         <title>Inscription</title>
-      </Head>
+        <script src="https://kit.fontawesome.com/c3f00815db.js" crossOrigin="anonymous"></script>      </Head>
       <header>
         <div className="contain">
           <Image src="/Saif.png" alt="Logo" width={100} height={100} />
@@ -69,16 +66,15 @@ export default function Home() {
           <div className='container'>
             <div className='contact1'>
               <h1>Contact me !</h1>
-              <p> saifbenyaagoub@gmail.com</p>
+              <p>saifbenyaagoub@gmail.com</p>
               <p>+216 92 992 297</p>
             </div>
             <div className='contact2'>
               <p>Social Contact :</p>
-              <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-              <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
-              <a href=""><FontAwesomeIcon icon={faInstagram} /></a>
-              <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
-            
+              <a href=""><i className="material-icons">Facebook</i></a>
+              <a href=""><i className="material-icons">Twitter</i></a>
+              <a href=""><i className="material-icons">Instagram</i></a>
+              <a href=""><i className="material-icons">Github</i></a>
             </div>
 
           </div>
