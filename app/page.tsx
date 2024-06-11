@@ -77,10 +77,6 @@ export default function Home() {
               <p><FontAwesomeIcon icon={faPhone} size="2x"style={{color:'#46d190',}} className='icon' />+216 92 992 297</p>
             </div>
             <div className='contact2'>
-<<<<<<< HEAD
-              <p>Social Contact :</p>
-              
-=======
               <h1>Social Contact :</h1>
               <a href="https://www.facebook.com/saif.benyagoub/" className='socialicon'>
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
@@ -91,7 +87,6 @@ export default function Home() {
                 <a href="https://github.com/Saifby" className='socialicon'>
                <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
->>>>>>> 1
             </div>
 
           </div>
