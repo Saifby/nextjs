@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from './style.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faInstagram, faLinkedin,faMailchimp} from '@fortawesome/free-brands-svg-icons';
+import { faMailForward } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Home() {
@@ -10,7 +11,6 @@ export default function Home() {
     <div className="pageContainer">
       <Head>
         <title>Inscription</title>
-        <script src="path/to/your/script.js" async></script>
       </Head>
       <header>
         <div className="contain">
@@ -69,15 +69,15 @@ export default function Home() {
           <div className='container'>
             <div className='contact1'>
               <h1>Contact me !</h1>
-              <p>saifbenyaagoub@gmail.com</p>
+              <FontAwesomeIcon icon={faMailForward} /><p> saifbenyaagoub@gmail.com</p>
               <p>+216 92 992 297</p>
             </div>
             <div className='contact2'>
               <p>Social Contact :</p>
               <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-              <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
-              <a href=""><FontAwesomeIcon icon={faInstagram} /></a>
-              <a href=""><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href=""><FontAwesomeIcon icon={faTwitter}className='icon' /></a>
+              <a href=""><FontAwesomeIcon icon={faInstagram} className='icon'/></a>
+              <a href=""><FontAwesomeIcon icon={faLinkedin}className='icon' /></a>
             </div>
 
           </div>
