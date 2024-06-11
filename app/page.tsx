@@ -69,12 +69,12 @@ export default function Home() {
           <div className='container'>
             <div className='contact1'>
               <h1>Contact me !</h1>
-              <FontAwesomeIcon icon={faMailForward} /><p> saifbenyaagoub@gmail.com</p>
+              <p> saifbenyaagoub@gmail.com</p>
               <p>+216 92 992 297</p>
             </div>
             <div className='contact2'>
               <p>Social Contact :</p>
-              <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+              <a href=""><FontAwesomeIcon icon={faFacebook} className='icon'/></a>
               <a href=""><FontAwesomeIcon icon={faTwitter}className='icon' /></a>
               <a href=""><FontAwesomeIcon icon={faInstagram} className='icon'/></a>
               <a href=""><FontAwesomeIcon icon={faLinkedin}className='icon' /></a>
