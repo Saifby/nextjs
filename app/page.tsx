@@ -8,7 +8,8 @@ export default function Home() {
     <div className="pageContainer">
       <Head>
         <title>Inscription</title>
-        <script src="https://kit.fontawesome.com/c3f00815db.js" crossOrigin="anonymous"></script>      </Head>
+        <script src="path/to/your/script.js" async></script>
+      </Head>
       <header>
         <div className="contain">
           <Image src="/Saif.png" alt="Logo" width={100} height={100} />
