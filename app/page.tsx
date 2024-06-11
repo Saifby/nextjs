@@ -71,10 +71,7 @@ export default function Home() {
             </div>
             <div className='contact2'>
               <p>Social Contact :</p>
-              <a href=""><i className="material-icons">Facebook</i></a>
-              <a href=""><i className="material-icons">Twitter</i></a>
-              <a href=""><i className="material-icons">Instagram</i></a>
-              <a href=""><i className="material-icons">Github</i></a>
+              
             </div>
 
           </div>
