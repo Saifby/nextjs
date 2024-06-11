@@ -33,6 +33,9 @@ header {
   color: #fff;
   min-height: 100vh;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 #logo {
   width: 250px;
@@ -115,9 +118,11 @@ button {
   background-color: #fff;
   color: #080808;
   font-size: 18px;
-  width: 80px;
+  width: 180px;
+  height: 40px;
   border-radius: 10px;
   transition: background-color 0.3s ease;
+  justify-content: center;
 }
 button:hover {
   animation: wave 1.5s ease-in-out infinite alternate;
@@ -174,6 +179,44 @@ button:hover {
 }
 .container {
   padding: 10px 10%;
+}
+.contact1 {
+  flex-basis: 35%;
+}
+.contact2 {
+  flex-basis: 60%;
+  margin-left: 50px;
+  text-align: right;
+}
+.contact1 p {
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.icon {
+  margin-right: 15px;
+  padding-top: 15px;
+  font-size: 25px;
+}
+.contact2 a {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 40px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+  padding-right: 30px;
+}
+.contact2 a:hover {
+  color: #46d190;
+  transform: translateY(-5px);
+}
+#cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 @layer utilities {
