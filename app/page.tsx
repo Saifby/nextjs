@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         </header>
         <div className="headtext">
-          <h1>Hi, I&apos;m Saif  <img src="bg.jpg" alt="" /></h1><br />
+          <h1>Hi, I&apos;m Saif  <Image src="bg.jpg" alt="" /></h1><br />
         </div>
         <div id="about">
           <div className="contain">
@@ -40,7 +40,7 @@ export default function Home() {
               <h1>About Me</h1>
                 <p>20-year-old programmer fueled by passion and curiosity. Driven by a thirst for knowledge, I immerse myself in the world of coding, constantly seeking to learn and innovate.  </p>
               <div className='titles'>
-                <a href="cv.pdf"><button>Download CV</button></a>
+                <a href="CVSaif.pdf"><button>Check CV</button></a>
               </div>
               </div>
             </div>
