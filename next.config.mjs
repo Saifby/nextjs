@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/saif-by",
-  // other configuration options
-  reactStrictMode: true,
-};
+const nextConfig = {};
 
 export default nextConfig;
