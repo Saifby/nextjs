@@ -1,7 +1,9 @@
+// next.config.mjs
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/saif-by",
-  output: "export",
+  // other configuration options
   reactStrictMode: true,
 };
 
