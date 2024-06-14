@@ -55,20 +55,17 @@ export default function Home() {
                 <p>HTML</p>
                 <p>CSS</p>
                 <p>React</p>
-                <a href="cv.pdf">Learn more</a>
               </div>
               <div>
                 <h2>BackEnd</h2>
                 <p>SQL</p>
                 <p>PHP</p>
-                <a href="cv.pdf">Learn more</a>
               </div>
               <div>
                 <h2>Programming</h2>
                 <p>Python</p>
                 <p>C</p>
                 <p>Javascript</p>
-                <a href="cv.pdf">Learn more</a>
               </div>
 
             </div>
