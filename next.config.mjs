@@ -1,10 +1,7 @@
-// next.config.mjs
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/saif-by",
-  // other configuration options
+  output: "export", // <=== enables static exports
   reactStrictMode: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
