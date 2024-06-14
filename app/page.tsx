@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         </header>
         <div className="headtext">
-          <h1>Hi, I&apos;m Saif  <Image src="bg.jpg" alt="" /></h1><br />
+          <h1>Hi, I&apos;m Saif <img src="/bg.jpg" alt="" /></h1><br />
         </div>
         <div id="about">
           <div className="contain">
