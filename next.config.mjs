@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // <=== enables static exports
+  basePath: "/saif-by",
+  output: "export",
   reactStrictMode: true,
 };
 
