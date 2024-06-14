@@ -52,17 +52,22 @@ export default function Home() {
             <div className='listservice'>
               <div>
                 <h2>FrontEnd</h2>
-                <p>qdhqsdhqdjdqdsqkdmqsdmqsdqmds</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>React</p>
                 <a href="cv.pdf">Learn more</a>
               </div>
               <div>
                 <h2>BackEnd</h2>
-                <p>dqsdlshkjsdhdkndlsnflsdnf</p>
+                <p>SQL</p>
+                <p>PHP</p>
                 <a href="cv.pdf">Learn more</a>
               </div>
               <div>
                 <h2>Programming</h2>
-                <p>dqsdlshkjsdhdkndlsnflsdnf</p>
+                <p>Python</p>
+                <p>C</p>
+                <p>Javascript</p>
                 <a href="cv.pdf">Learn more</a>
               </div>
 
