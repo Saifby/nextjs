@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <header>
         <div className="contain">
-          <Image src="/Saif.png" alt="Logo" width={100} height={100} />
+          <Image src="./Saif.png" alt="Logo" width={100} height={100} />
           <ul>
             <li><a href="#header"> Home</a></li>
             <li><a href="#about"> About</a></li>
@@ -28,13 +28,13 @@ export default function Home() {
         </div>
         </header>
         <div className="headtext">
-          <h1>Hi, I&apos;m Saif <img src="/bg.jpg" alt="" /></h1><br />
+          <h1>Hi, I&apos;m Saif <img src="./bg.jpg" alt="" /></h1><br />
         </div>
         <div id="about">
           <div className="contain">
             <div className="row">
               <div className="col1">
-              <Image src="/4707122.jpg" alt="Background" width={400} height={300} />
+              <Image src="./4707122.jpg" alt="Background" width={400} height={300} />
               </div>
               <div className="col2">
               <h1>About Me</h1>
